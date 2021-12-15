@@ -1,0 +1,44 @@
+.company__title {
+  color: $main-title-color;
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.company__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company__item {
+  & + .company__item {
+    margin-left: 30px;
+  }
+}
+
+.company__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  color: $third-btn-color;
+
+  border: 1px solid currentColor;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+.company__icon {
+  fill: currentColor;
+}
+
+.company__link:hover,
+.company__link:focus {
+  color: $accent-color;
+}
