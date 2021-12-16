@@ -2,16 +2,12 @@
   color: $main-title-color;
   margin-bottom: 50px;
 
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
   text-align: center;
+  @include font(700, 36px, 1.17);
 }
 
 .company__list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex;
 }
 
 .company__item {
@@ -21,9 +17,7 @@
 }
 
 .company__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex;
   width: 170px;
   height: 92px;
   color: $third-btn-color;
@@ -38,7 +32,9 @@
   fill: currentColor;
 }
 
-.company__link:hover,
-.company__link:focus {
-  color: $accent-color;
+.company__link {
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }

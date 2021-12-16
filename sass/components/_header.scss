@@ -9,14 +9,16 @@
 
 .header__logo {
   margin-right: 93px;
-
-  color: $main-title-color;
-  font-family: 'Raleway', sans-serif;
-  @include font(700, 24px, 1.19);
 }
 
-.header__accent {
-  color: $accent-color;
+.logo {
+  color: $main-title-color;
+  font-family: 'Raleway', sans-serif;
+  @include font(700, 26px, 1.19);
+
+  .logo__accent {
+    color: $accent-color;
+  }
 }
 
 .header__list {

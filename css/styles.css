@@ -231,7 +231,7 @@ body {
 
 /*--------------------FOOTER-----------------------*/
 
-.footer {
+/* .footer {
   background-color: var(--unic-bgc-color);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -385,7 +385,7 @@ body {
 }
 .subscribe-icon {
   fill: currentColor;
-}
+} */
 
 /*---------Index.html--------------------*/
 /*----------------HERO------------------*/
@@ -630,7 +630,7 @@ body {
 
 /*-------------------CLIENTS-------------*/
 
-.clients-title {
+/* .clients-title {
   color: var(--main-title-color);
   margin-bottom: 50px;
 
@@ -671,7 +671,7 @@ body {
 .clients-link:hover,
 .clients-link:focus {
   color: var(--accent-color);
-}
+} */
 
 /* --------------BACKDROP--------------- */
 
@@ -880,17 +880,17 @@ body {
 
 /*----------portfolio.html----------------*/
 /*-------------------PORTFOLIO---------------*/
-.main-portfolio {
+/* .main-portfolio {
   background-color: var(--main-bgc-color);
 }
 
 .project {
   display: flex;
   flex-direction: column;
-}
+} */
 /*----------------------FILTERS--------------- */
 
-.filter-list {
+/* .filter-list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -927,11 +927,11 @@ body {
 
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
 /*--------------------PROJECTS------------------------*/
 
-.project-list {
+/* .project-list {
   display: flex;
   flex-wrap: wrap;
 
@@ -997,4 +997,4 @@ body {
   color: var(--main-text-color);
   font-size: 16px;
   line-height: 1.87;
-}
+} */

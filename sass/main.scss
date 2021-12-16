@@ -3,7 +3,7 @@
 @import './base/resets';
 @import './utils/hidden';
 @import './utils/placeholders';
-@import './utils/animation';
+@import './utils/animations';
 @import './utils/mixins';
 
 @import './components/header';
@@ -12,3 +12,6 @@
 @import './components/about';
 @import './components/team';
 @import './components/company';
+@import './components/footer';
+
+@import './components/filters';

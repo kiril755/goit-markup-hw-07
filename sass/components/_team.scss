@@ -57,27 +57,25 @@
   @include flex;
 }
 
+.social__item {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
 .social__link {
-  background-color: $main-bgc-color;
   @include flex;
 
   width: 44px;
   height: 44px;
   border-radius: 50%;
   color: $third-btn-color;
-}
+  background-color: $main-bgc-color;
 
-.social__link {
   &:hover,
   &:focus {
-    background-color: $second-btn-bgc-color;
     color: $second-btn-color;
-  }
-}
-
-.social__item {
-  &:not(:last-child) {
-    margin-right: 10px;
+    background-color: $second-btn-bgc-color;
   }
 }
 

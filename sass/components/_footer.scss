@@ -1,0 +1,114 @@
+.footer {
+  background-color: $unic-bgc-color;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer__address {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 70px;
+}
+
+.logo_light {
+  margin-bottom: 20px;
+  margin-right: auto;
+
+  color: #ffffff;
+}
+
+.address__list {
+  display: flex;
+  flex-direction: column;
+
+  font-style: normal;
+  @include font(400, 14px, 1.71);
+}
+
+.address__item {
+  margin-right: auto;
+
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
+
+.address__link {
+  color: rgba(255, 255, 255, 0.6);
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.address__link_light {
+  color: #ffffff;
+}
+
+.footer__title {
+  margin-bottom: 20px;
+
+  color: $second-title-color;
+
+  text-transform: uppercase;
+  @include font(700, 14px, 1.14);
+}
+
+.social__link_grey {
+  color: $second-btn-color;
+  background-color: rgba(255, 255, 255, 0.1);
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
+
+.footer__subscribe {
+  margin-left: auto;
+}
+
+.subscribe {
+  @include flex;
+}
+
+.subscribe__mail {
+  padding: 15px 16px;
+  margin-right: 15px;
+  width: 358px;
+  height: 50px;
+  outline: none;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: inherit;
+  color: $second-title-color;
+  @include transition(border-color);
+
+  &:focus {
+    border-color: $accent-color;
+  }
+}
+
+.subscribe__button {
+  @extend %button;
+  @include flex($jy: space-between);
+  @include font(700, 16px, 1.87, 0.06em);
+
+  padding-right: 28px;
+  padding-left: 28px;
+  width: 200px;
+  height: 50px;
+
+  text-align: center;
+}
+
+.subscribe__icon {
+  fill: currentColor;
+}
