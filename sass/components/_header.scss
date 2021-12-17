@@ -1,4 +1,4 @@
-.header {
+.header_border {
   border-bottom: 1px solid #ececec;
 }
 
@@ -11,12 +11,12 @@
   margin-right: 93px;
 }
 
-.logo {
+.logo_type {
   color: $main-title-color;
   font-family: 'Raleway', sans-serif;
   @include font(700, 26px, 1.19);
 
-  .logo__accent {
+  & .logo__accent {
     color: $accent-color;
   }
 }

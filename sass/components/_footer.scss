@@ -1,4 +1,4 @@
-.footer {
+.footer_position {
   background-color: $unic-bgc-color;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -74,7 +74,7 @@
   margin-left: auto;
 }
 
-.subscribe {
+.subscribe_position {
   @include flex;
 }
 

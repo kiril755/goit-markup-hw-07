@@ -21,10 +21,10 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header header_border">
       <div class="header__container container">
         <nav class="header__nav">
-          <a class="header__logo logo link" lang="en" href="./index.html"
+          <a class="header__logo logo logo_type link" lang="en" href="./index.html"
             ><span class="logo__accent">Web</span>Studio</a
           >
 
@@ -128,7 +128,7 @@
 
       <!--  about  -->
 
-      <section class="about section">
+      <section class="about about_positon section">
         <div class="about__container container">
           <h2 class="about__title">Чем мы занимаемся</h2>
           <ul class="about__list list">
@@ -161,7 +161,7 @@
 
       <!--  team  -->
 
-      <section class="team section">
+      <section class="team team_bgc section">
         <div class="team__container container">
           <h2 class="team__title">Наша команда</h2>
           <ul class="team__list list">
@@ -173,9 +173,9 @@
                 width="270"
                 height="260"
               />
-              <h3 class="employee">Игорь Демьяненко</h3>
+              <h3 class="employee employee_type">Игорь Демьяненко</h3>
               <p class="employee__text" lang="en">Product Designer</p>
-              <ul class="social list">
+              <ul class="social social_position list">
                 <li class="social__item">
                   <a class="social__link" href="">
                     <svg class="social__icon" width="20" height="20">
@@ -214,9 +214,9 @@
                 width="270"
                 height="260"
               />
-              <h3 class="employee">Ольга Репина</h3>
+              <h3 class="employee employee_type">Ольга Репина</h3>
               <p class="employee__text" lang="en">Frontend Developer</p>
-              <ul class="social list">
+              <ul class="social social_position list">
                 <li class="social__item">
                   <a class="social__link" href="">
                     <svg class="social__icon" width="20" height="20">
@@ -255,9 +255,9 @@
                 width="270"
                 height="260"
               />
-              <h3 class="employee">Николай Тарасов</h3>
+              <h3 class="employee employee_type">Николай Тарасов</h3>
               <p class="employee__text" lang="en">Marketing</p>
-              <ul class="social list">
+              <ul class="social social_position list">
                 <li class="social__item">
                   <a class="social__link" href="">
                     <svg class="social__icon" width="20" height="20">
@@ -296,9 +296,9 @@
                 width="270"
                 height="260"
               />
-              <h3 class="employee">Михаил Ермаков</h3>
+              <h3 class="employee employee_type">Михаил Ермаков</h3>
               <p class="employee__text" lang="en">UI Designer</p>
-              <ul class="social list">
+              <ul class="social social_position list">
                 <li class="social__item">
                   <a class="social__link" href="">
                     <svg class="social__icon" width="20" height="20">
@@ -388,10 +388,10 @@
 
     <!--  footer  -->
 
-    <footer class="footer">
+    <footer class="footer footer_position">
       <div class="footer__container container">
         <div class="footer__address">
-          <a class="logo logo_light link" lang="en" href="./index.html">
+          <a class="logo logo_light logo_type link" lang="en" href="./index.html">
             <span class="logo__accent">Web</span>Studio
           </a>
           <address class="address">
@@ -416,7 +416,7 @@
         </div>
         <div class="footer__social">
           <h3 class="footer__title">присоединяйтесь</h3>
-          <ul class="social list">
+          <ul class="social social_position list">
             <li class="social__item">
               <a class="social__link social__link_grey" href="">
                 <svg class="social__icon" width="20" height="20">
@@ -449,7 +449,7 @@
         </div>
         <div class="footer__subscribe">
           <h3 class="footer__title">Подпишитесь на рассылку</h3>
-          <form class="subscribe">
+          <form class="subscribe subscribe_position">
             <input type="email" class="subscribe__mail" name="email" placeholder="E-mail" />
             <button type="submit" class="subscribe__button">
               Подписаться
@@ -463,81 +463,81 @@
     </footer>
 
     <!------ backdrop ------->
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button type="button" class="modal-button" data-modal-close>
-          <svg class="modal-icon" width="11" height="11">
+    <div class="backdrop backdrop_position is-hidden" data-modal>
+      <div class="modal modal_type">
+        <button type="button" class="modal__button" data-modal-close>
+          <svg class="modal__icon" width="11" height="11">
             <use href="./images/symbol-defs.svg#icon-Vector"></use>
           </svg>
         </button>
-        <div class="form-wrap">
-          <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
+        <div class="modal__form">
+          <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
           <form class="form">
-            <div class="form-person-wrap">
-              <label for="name" class="form-label">Имя</label>
-              <div class="input-icon-wrap">
+            <div class="form__person">
+              <label for="name" class="form__label">Имя</label>
+              <div class="form__input-wrap">
                 <input
                   type="text"
-                  class="form-input"
+                  class="form__input"
                   name="name"
                   id="name"
                   placeholder=" "
                   autocomplete="name"
                 />
-                <svg class="form-icon" width="18" height="18">
+                <svg class="form__icon" width="18" height="18">
                   <use href="./images/symbol-defs.svg#icon-person"></use>
                 </svg>
               </div>
             </div>
-            <label for="tel" class="form-label">Телефон</label>
-            <div class="input-icon-wrap">
+            <label for="tel" class="form__label">Телефон</label>
+            <div class="form__input-wrap">
               <input
                 type="tel"
-                class="form-input"
+                class="form__input"
                 name="tel"
                 id="tel"
                 placeholder=" "
                 autocomplete="tel"
               />
-              <svg class="form-icon" width="18" height="18">
+              <svg class="form__icon" width="18" height="18">
                 <use href="./images/symbol-defs.svg#icon-phone"></use>
               </svg>
             </div>
-            <label for="email" class="form-label">Почта</label>
-            <div class="input-icon-wrap">
-              <input type="email" class="form-input" name="email" id="email" placeholder=" " />
-              <svg class="form-icon" width="18" height="18">
+            <label for="email" class="form__label">Почта</label>
+            <div class="form__input-wrap">
+              <input type="email" class="form__input" name="email" id="email" placeholder=" " />
+              <svg class="form__icon" width="18" height="18">
                 <use href="./images/symbol-defs.svg#icon-email"></use>
               </svg>
             </div>
-            <div class="comment-wrap">
-              <label for="comment" class="form-label">Комментарий</label>
+            <div class="comment comment_position">
+              <label for="comment" class="form__label">Комментарий</label>
 
               <textarea
-                class="comment"
+                class="comment_textarea"
                 name="comment"
                 placeholder="Введите текст"
                 id="comment"
               ></textarea>
             </div>
 
-            <label for="form-checkbox" class="form-checkbox-label">
+            <label for="form-checkbox" class="terms terms_position">
               <input
                 type="checkbox"
-                class="form-checkbox"
+                class="terms__checkbox"
                 name="terms"
                 value="terms"
                 id="form-checkbox"
               />
-              <span class="checkbox-icon">
+              <span class="terms__icon">
                 <svg class="" width="16" height="15">
                   <use href="./images/symbol-defs.svg#icon-check"></use>
                 </svg>
               </span>
               Соглашаюсь с рассылкой и принимаю&nbsp;
-              <a href="" class="checkbox-link">Условия договора</a>
+              <a href="" class="terms__link">Условия договора</a>
             </label>
-            <button type="submit" class="form-button">Отправить</button>
+            <button type="submit" class="form__button">Отправить</button>
           </form>
         </div>
       </div>
